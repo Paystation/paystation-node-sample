@@ -1,0 +1,29 @@
+extends layout
+
+block content
+	h2 3 Party Paystation Hosted POST back Sample Code
+	
+	a(href="/token") Tokenization
+	
+	p Please enter the amount you wish to pay in the space provided below.
+	
+	div#flash_message
+	
+	label Amount($):
+	input#amount(type='text', name='amount')
+	input#payButton(type='submit', name='submit' value='submit')
+	
+	div#payment_frame_wrapper
+	p
+		| 5555555555554444
+		| Test credit cards can be found 
+		a(href='https://www2.paystation.co.nz/developers/test-cards/', target='_blank') here
+	p
+		| Use the following cent values to get the corresponding response from the bank emulator.
+		ul(style='list-style:none;')
+			li .00 - Transaction Successful
+			li .51 - Insufficient Funds
+			li .54 - Expired Card
+			li .57 - Transaction Type Not Supported
+			li .75 - Bank Declined Transaction
+			li .91 - Error Communicating with Bank

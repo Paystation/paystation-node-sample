@@ -1,0 +1,24 @@
+{
+  "name": "paystation-node-sample",
+  "version": "0.0.1",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "~1.4.3",
+    "crypto-js": "^3.1.8",
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "express-xml-bodyparser": "^0.3.0",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.4",
+    "request": "^2.79.0",
+    "serve-favicon": "^2.5.0",
+    "socket.io": "^2.2.0",
+    "uuid": "^3.0.0",
+    "xml2js": "^0.4.17"
+  }
+}

@@ -1,0 +1,24 @@
+extends layout
+
+block content
+	h2 3 Party Paystation Hosted POST back Sample Code
+	
+	a(href="/") 3-Party Transaction
+	
+	p Click below to create a new Token.
+	
+	div#flash_message
+	
+	label Amount($):
+	input#amount(type='text', name='amount')
+	label Token:
+	input#token(type='text', name='token')
+	input#tokenPayButton(type='submit', name='submit' value='submit')
+	
+	div
+		ul#card_list
+	
+	label Create Token:
+	input#createTokenButton(type='submit', name='submit' value='Create Token')
+	
+	div#payment_frame_wrapper(style='width: 100%; height: 475px;')

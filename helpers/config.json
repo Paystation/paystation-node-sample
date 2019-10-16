@@ -1,0 +1,11 @@
+{
+	"paystation_id": "<your paystation id>",
+	"gateway_id": "<your gateway id>",
+	"test_mode": true,
+	"hmac_mode": true,
+	"hmac_security_code": "<your HMAC key>",
+	"paystation_url": "https://www.paystation.co.nz/direct/paystation.dll",
+	"lookup_url": "https://payments.paystation.co.nz/lookup/",
+	"mock_database": "latest_transactions.json",
+	"polling_timeout_minutes": 1
+}
